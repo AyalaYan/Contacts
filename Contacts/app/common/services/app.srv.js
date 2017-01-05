@@ -35,7 +35,7 @@
         }
 
         function getContactById(contactId) {
-            if (contactId == 0)
+            if (contactId == 0) 
                 return null; 
             return _.find(service.contactsList.data, { id: contactId });
         }
