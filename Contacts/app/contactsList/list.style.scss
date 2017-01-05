@@ -1,0 +1,35 @@
+﻿
+@import "../common/ctr.vars.scss";
+
+.list-section {
+    position: fixed;
+    margin-top: 50px;
+    left: 32%;
+    align-items: flex-end;
+
+    .panel {
+        width: 500px;
+    }
+
+    .panel-contacts {
+        text-align: left !important;
+    }
+
+    .panel-body {
+        max-height: 500px;
+        overflow-y: auto !important;
+    }
+
+    .contact-header {
+        color: $color-2 !important;
+    }
+
+    .div-contact-wrapper {
+        margin-left: 15px;
+    }
+
+    .img-avator {
+        width: 35px;
+        height: 35px;
+    }
+}

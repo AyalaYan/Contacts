@@ -1,0 +1,26 @@
+﻿.set-section {
+  position: fixed;
+  margin-top: 5px;
+  left: 35%;
+  align-items: flex-end; }
+  .set-section .panel {
+    width: 420px; }
+  .set-section .panel-contacts {
+    text-align: left !important;
+    padding-left: 50px !important; }
+  .set-section .contact-header {
+    color: #8c8989 !important; }
+  .set-section .div-contact-wrapper {
+    margin-left: 15px; }
+  .set-section .form-control {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important; }
+  .set-section .required-sign {
+    margin-left: -13px;
+    display: inline-block !important;
+    color: #9e0000 !important; }
+  .set-section .img-load-avatar {
+    width: 55px;
+    height: 55px;
+    cursor: pointer; }
+

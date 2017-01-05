@@ -1,0 +1,53 @@
+﻿<div class="set-section">
+    <form class="panel panel-default">
+        <div class="panel-heading">
+            <span ng-show="!cntSetVm.AddNewcontact">Add</span>
+            <span ng-show="cntSetVm.AddNewcontact">Set</span>
+            Contact <span class="font-bold">{{cntSetVm.contactObj.name}}</span>-
+        </div>
+        <div class="panel-body panel-contacts">
+            <div class="contact-header row">
+                Name:<br />
+                <span class="required-sign">*&nbsp;</span><input type="text" class="form-control display-inline" ng-model="cntSetVm.contactObj.name" required />
+                <!--<img class="img-load-avatar" ng-model="{{cntSetVm.contactObj.avatar}}" ng-src="{{cntSetVm.contactObj.avatar}}" ng-click="cntSetVm.loadAvatarImage();"/>-->
+            </div>
+            <div class="contact-header row">
+                Last Name:<br />
+                <span class="required-sign">*&nbsp;</span><input type="text" class="form-control display-inline" ng-model="cntSetVm.contactObj.lastName" required />
+            </div>
+            <div class="contact-header row">
+                Nick Name:<br />
+                <input type="text" class="form-control" ng-model="cntSetVm.contactObj.nickname" />
+            </div>
+            <div class="contact-header row">
+                Job Title:<br />
+                <span class="required-sign">*&nbsp;</span><input type="text" class="form-control display-inline" ng-model="cntSetVm.contactObj.jobTitle" required />
+            </div>
+            <div class="contact-header row">
+                Company:<br />
+                <span class="required-sign">*&nbsp;</span><input type="text" class="form-control display-inline" ng-model="cntSetVm.contactObj.company" required />
+            </div>
+            <div class="contact-header row">
+                Address:<br />
+                <span class="required-sign">*&nbsp;</span><input type="text" class="form-control display-inline" ng-model="cntSetVm.contactObj.address" required />
+            </div>
+            <div class="contact-header row">
+                Email:<br />
+                <span class="required-sign">*&nbsp;</span><input type="email" class="form-control display-inline" ng-model="cntSetVm.contactObj.email" title="me@example.com" required />
+            </div>
+            <div class="contact-header row">
+                Phone:<br />
+                <span class="required-sign">*&nbsp;</span><input type="text" class="form-control display-inline" ng-model="cntSetVm.contactObj.phone" title="XXX-XXX-XXXX" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+            </div>
+            <div class="contact-header row">
+                Birthday:<br />
+                <input type="date" class="form-control" ng-model="cntSetVm.contactObj.birthday" />
+            </div>
+            <div class="contact-header row">
+                Notes:<br />
+                <input type="text" class="form-control" ng-model="cntSetVm.contactObj.notes" />
+            </div>
+        </div>
+        <div class="panel-footer"><input value="Save" type="submit" class="btn" ng-click="cntSetVm.saveContactData();" /> </div>
+    </form>
+</div>

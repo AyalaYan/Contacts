@@ -1,0 +1,29 @@
+﻿<div class="div-contact-wrapper ">
+    <div class="row">
+        <div class="col-md-5">
+            <i class="glyphicon glyphicon-chevron-right display-inline cursor-pointer " ng-show="!collapsed" ng-click="collapsed=!collapsed;"></i>
+            <i class="glyphicon glyphicon-chevron-down display-inline cursor-pointer " ng-show="collapsed" ng-click="collapsed=!collapsed;"></i>
+            <h4 class="display-inline">{{contact.name}}</h4>
+        </div>
+        <div class="col-md-1">
+            <img class="display-inline img-avator" ng-src="{{contact.avatar}}" />
+        </div>
+        <div class="col-md-2 pull-right">
+            <i class="glyphicon glyphicon-pencil display-inline cursor-pointer pull-right" ng-click="editContact();"></i>
+        </div>
+    </div>
+    <div class="row">
+        <ul style="list-style-type:disc" ng-show="collapsed">
+            <li class="contact-header">Name:     {{contact.name}}</li>
+            <li class="contact-header">Last Name: {{contact.lastName}}</li>
+            <li class="contact-header">Nick Name: {{contact.nickname}}</li>
+            <li class="contact-header">Job Title: {{contact.jobTitle}}</li>
+            <li class="contact-header">Company:   {{contact.company}}</li>
+            <li class="contact-header">Address:   {{contact.address}}</li>
+            <li class="contact-header">Email:     {{contact.email}}</li>
+            <li class="contact-header">Phone:     {{contact.phone}}</li>
+            <li class="contact-header">Birthday:  {{contact.birthday}}</li>
+            <li class="contact-header">Notes:     {{contact.notes}}</li>
+        </ul>
+    </div>
+</div>

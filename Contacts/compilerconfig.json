@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "app/cnt.style.css",
+    "inputFile": "app/cnt.style.scss"
+  },
+  {
+    "outputFile": "app/contactsHome/home.style.css",
+    "inputFile": "app/contactsHome/home.style.scss"
+  },
+  {
+    "outputFile": "app/contactsList/list.style.css",
+    "inputFile": "app/contactsList/list.style.scss"
+  },
+  {
+    "outputFile": "app/setContacts/set.style.css",
+    "inputFile": "app/setContacts/set.style.scss"
+  }
+]

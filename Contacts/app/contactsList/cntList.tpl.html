@@ -1,0 +1,9 @@
+﻿<div class="list-section">
+    <div class="panel panel-default">
+        <div class="panel-heading">Contacts:</div>
+        <div class="panel-body panel-contacts">
+            <contact-data ng-repeat="contact in cntListVm.listContacts" contact="contact"></contact-data>
+        </div>
+        <div class="panel-footer"><input value="Add" type="button" class="btn" ng-click="cntListVm.addNewContact();"/> </div>
+    </div>
+</div>

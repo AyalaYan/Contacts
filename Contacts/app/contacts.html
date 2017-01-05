@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html ng-app="cntApp">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/Site.css" rel="stylesheet" />
+    <link href="cnt.style.min.css" rel="stylesheet" />
+    <link href="contactsHome/home.style.min.css" rel="stylesheet" />
+    <link href="contactsList/list.style.min.css" rel="stylesheet" />
+    <link href="setContacts/set.style.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-fixed-top navbar-contacts">
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/home">Home</a></li>
+                    <li><a href="#/list">Contacts List</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content text-center">
+        <div ng-view ></div>
+    </div>
+    <!-- scripts -->
+    <script src="../Scripts/lodash.min.js"></script>
+ 
+    <!-- angular scripts -->
+    <script src="../Scripts/angular.min.js"></script>
+    <script src="../Scripts/angular-route.min.js"></script>
+    <script src="../Scripts/angular-animate.min.js"></script>
+    <script src="../Scripts/angular-loader.min.js"></script>
+    <!-- app scripts -->
+    <script src="app.mdl.js"></script>
+    <script src="app.route.js"></script>
+    <script src="common/directives/app.dirct.js"></script>
+    <script src="contactsHome/home.ctrl.js"></script>
+    <script src="common/services/app.srv.js"></script>
+    <script src="contactsList/list.ctrl.js"></script>
+    <script src="setContacts/set.ctrl.js"></script>
+</body>
+</html>

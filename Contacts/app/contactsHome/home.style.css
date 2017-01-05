@@ -1,0 +1,8 @@
+﻿.home-section {
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  align-items: flex-end; }
+  .home-section .panel {
+    width: 400px; }
+

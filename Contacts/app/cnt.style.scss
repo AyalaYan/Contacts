@@ -1,0 +1,27 @@
+﻿@import "common/ctr.vars.scss";
+
+body {
+    .navbar-contacts {
+        background-color: $color-3;
+        color: $color-1;
+    }
+
+    input,
+    select,
+    textarea, h1, h2, h3, h4, h5, div, ruby-span, label, a {
+        font-family: $font-family !important;
+        color: $color-1 !important;
+    }
+
+    .cursor-pointer {
+        cursor: pointer !important;
+    }
+
+    .display-inline {
+        display: inline-block !important;
+    }
+
+    .font-bold {
+        font-weight: bold;
+    }
+}
