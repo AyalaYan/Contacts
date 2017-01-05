@@ -41,7 +41,7 @@
         }
 
         function setContact(contact) {
-            if (!contact.id) {
+            if (!contact.id) {   
                 contact.id = "111"+contact.name;
                 service.contactsList.data.push(contact);
             }
